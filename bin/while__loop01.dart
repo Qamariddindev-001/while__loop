@@ -1,9 +1,7 @@
-String func(int i) {
-  String s = 'Qamariddin';
-  while (i < 0);
-  return s * i;
-}
-
 void main() {
-  print(func(100));
+  int i = 0;
+  while (i < 100) {
+    i++;
+    print('Qamariddin');
+  }
 }
