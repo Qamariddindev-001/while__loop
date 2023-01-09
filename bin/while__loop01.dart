@@ -1,3 +1,9 @@
+String func(int i) {
+  String s = 'Qamariddin';
+  while (i < 0);
+  return s * i;
+}
+
 void main() {
-  //Print your name a hundred times
+  print(func(100));
 }
